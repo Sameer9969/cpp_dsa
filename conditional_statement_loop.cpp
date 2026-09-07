@@ -123,3 +123,59 @@ break statement  = to exit the loop */
     cout << sum << endl;
     return 0;
 } */
+/*
+do while loop  */
+/* 
+int main(){
+    int i = 1;
+    int n = 10;
+    do {
+        cout << i <<" ";
+        i++;
+
+    }while (i <= n);
+                i++;
+
+    
+} */
+
+
+/* check the number is prime or not */
+/* int main()
+{
+    int i;
+    int n = 7;
+    bool isprime = true;
+
+    for(i = 2; i <= n-1 ; i++)
+    {
+        if(n%i == 0){
+            isprime = false;
+            break;
+        }
+    }
+    if(isprime == true){
+        cout<<"prime no\n";
+    }
+    else {
+        cout << "non prime\n";
+    }
+    return 0; */
+
+/* pattern printing = nested loop */
+
+/* int main(){
+    for(int i = 1; i <= 6;i++){
+
+    
+        int m = 10;
+        for(int i = 1; i <=m; i++)
+        {
+            cout<< "*";
+        }
+        cout << endl;
+    }
+    return 0;
+} */
+
+/* 2. */
